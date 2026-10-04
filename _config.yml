@@ -1,28 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # ====================== 网站全局设置 ======================
 title                    : "Yang Gu"       #【改这里】网页标题，你的英文名字，浏览器标签栏显示
 description              : "Fourth-year undergraduate student in Communication Engineering at Nanjing University of Posts and Telecommunications (NJUPT), focusing on Direction-of-Arrival estimation."
 #【改这里】一句话简介，简单描述你的研究方向，用于搜索引擎展示，例："PhD student at Shanghai Jiao Tong University, focusing on AI‑empowered wireless communications."
-
-repository               : "hu275/gu275.github.io"
+repository               : "gu275/gu275.github.io"
 #【必须修改】改成你自己仓库，格式："gu275/gu275.github.io"
-
 google_scholar_stats_use_cdn : true   # 保持true，开启谷歌学者引用统计CDN加速，不用改
-
 # google analytics
 google_analytics_id      :  #【可选】谷歌分析ID，没有就留空，不需要删除
-
 # SEO Related 搜索引擎收录，全部没有就留空
 google_site_verification :  #【可选】google搜索控制台验证ID
 bing_site_verification   :  #【可选】必应站长平台验证ID
 baidu_site_verification  :  #【可选】百度站长平台验证ID
-
 # ====================== 作者个人信息（重点修改区域） ======================
 author:
   name             : "Yang Gu"     #【改这里】你的姓名，例如 "Yang Gu"
@@ -44,7 +32,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :"Gu275" #【改这里】你的github用户名，不是完整链接！例如 "gu275"
+  github           : "Gu275" #【改这里】你的github用户名，不是完整链接！例如 "gu275"
   google_plus      :
   keybase          :
   instagram        :
@@ -52,7 +40,7 @@ author:
   lastfm           :
   linkedin         : #【可选】linkedin用户名，不是完整url
   dblp             : #【可选】DBLP完整个人主页链接
-  orcid            :"https://orcid.org/0009-0003-5769-1877" #【可选】ORCID号完整链接
+  orcid            : "https://orcid.org/0009-0003-5769-1877" #【可选】ORCID号完整链接
   pinterest        :
   soundcloud       :
   stackoverflow    : #【可选】stackoverflow个人主页链接
@@ -64,99 +52,3 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
-# ====================== 下面全部为系统底层配置，一般**不要修改** ======================
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - docs
-  - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai  #时区已经设置为上海时间，无需修改
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
