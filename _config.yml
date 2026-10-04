@@ -7,7 +7,7 @@ repository               : "gu275/gu275.github.io"
 google_scholar_stats_use_cdn : true   # 保持true，开启谷歌学者引用统计CDN加速，不用改
 # google analytics
 google_analytics_id      :  #【可选】谷歌分析ID，没有就留空，不需要删除
-# SEO Related 搜索引擎收录，全部没有就留空
+# SEO Related 搜索引擎收录，全部没有就留
 google_site_verification :  #【可选】google搜索控制台验证ID
 bing_site_verification   :  #【可选】必应站长平台验证ID
 baidu_site_verification  :  #【可选】百度站长平台验证ID
